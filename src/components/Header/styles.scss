@@ -1,0 +1,14 @@
+.header {
+  width: 100%;
+  min-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 30px;
+  color: #fff;
+  background-color: $secondary-bg-color;
+
+  > div {
+    min-width: 100px;
+  }
+}
