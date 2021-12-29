@@ -1,4 +1,4 @@
-# Vue Store to test some things
+# Vue Store to test and study somethings
 
 ## Project setup
 ```
