@@ -1,4 +1,4 @@
-# prova-dot-store
+# Vue Store to test some things
 
 ## Project setup
 ```

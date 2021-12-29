@@ -1,4 +1,64 @@
 .product-card {
   width: 100%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+
+  .product-card__cover {
+    width: 100%;
+    position: relative;
+
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 75px;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #000);
+    }
+
+    .product__image {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .product__date {
+      position: absolute;
+      text-align: center;
+      left: 50%;
+      bottom: 10px;
+      transform: translateX(-50%);
+      width: 90%;
+      color: #fff;
+    }
+  }
+
+  .product-card__presentation {
+    padding: 15px 10px;
+    flex-grow: 1;
+  }
+
+  .product-card__actions {
+    width: 100%;
+
+    .product__add-cart {
+      width: 100%;
+      min-height: 50px;
+      padding: 5px 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      background-color: $primary-action-color;
+      color: #fff;
+      transition: all .3s;
+
+      &:hover {
+        background-color: darken($primary-action-color, 5%);
+      }
+    }
+  }
 }

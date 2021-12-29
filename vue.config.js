@@ -3,7 +3,7 @@ module.exports = {
     loaderOptions: {
       sass: {
         additionalData: `
-          @import "@/assets/_variables.scss";
+          @import "@/assets/styles/_variables.scss";
         `
       }
     }

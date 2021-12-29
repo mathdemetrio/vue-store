@@ -15,6 +15,18 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+button, a {
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  max-width: 100%;
+}
+
 .container {
   width: 100%;
   max-width: 1200px;

@@ -1,11 +1,11 @@
 <template>
   <div class="container">
     <div class="product-grid">
-      <product-card></product-card>
-      <product-card></product-card>
-      <product-card></product-card>
-      <product-card></product-card>
-      <product-card></product-card>
+      <product-card :key="1"></product-card>
+      <product-card :key="2"></product-card>
+      <product-card :key="3"></product-card>
+      <product-card :key="4"></product-card>
+      <product-card :key="5"></product-card>
     </div>
   </div>
 </template>

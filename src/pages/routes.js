@@ -1,5 +1,5 @@
-import Home from './Home'
-import Checkout from './Checkout'
+const Home = import('./Home')
+const Checkout = import('./Checkout')
 
 const routes = [
   { 
